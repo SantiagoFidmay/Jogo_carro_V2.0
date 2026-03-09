@@ -50,7 +50,7 @@ document.addEventListener('keyup', (e)=>{
 
 document.addEventListener('keydown', (e)=>{
     if(e.key === 'a'){
-        carro.dir2 = -9
+        carro.dir2 = -11
     console.log(carro.dir)
     }else if(e.key === 'd'){
         carro.dir2 = 9
